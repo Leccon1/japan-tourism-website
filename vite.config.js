@@ -5,7 +5,7 @@ import checker from 'vite-plugin-checker'
 import svgr from 'vite-plugin-svgr'
 
 export default defineConfig({
-  base: 'https://github.com/Leccon1/japan-tourism-website',
+  base: 'japan-tourism-website',
 
   plugins: [
     react({
