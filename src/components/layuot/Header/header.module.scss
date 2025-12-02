@@ -2,6 +2,7 @@
 @use '@styles/helpers' as *;
 
 .header {
+  margin-top: $spacing-xxl;
   display: flex;
   justify-content: space-around;
 }
