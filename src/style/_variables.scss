@@ -10,7 +10,7 @@ $color-secondary: $color-red;
 
 $color-primary-hover: rgba(
   $color: $color-primary,
-  $alpha: 0.75,
+  $alpha: 0.55,
 );
 $color-button-hover: rgba(
   $color: $color-secondary,
@@ -30,6 +30,7 @@ $spacing-sm: rem(8);
 $spacing-md: rem(12);
 $spacing-lg: rem(16);
 $spacing-xl: rem(32);
+$spacing-xxl: rem(70);
 
 // Радиусы и бордеры
 $border-radius-sm: rem(4);
