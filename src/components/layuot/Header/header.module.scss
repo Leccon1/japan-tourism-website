@@ -1,0 +1,28 @@
+@use '@styles/variables' as *;
+@use '@styles/helpers' as *;
+
+.header {
+  display: flex;
+  justify-content: space-around;
+}
+
+.headerNav {
+  display: flex;
+  gap: $spacing-xxl;
+}
+
+.headerNavList {
+  display: flex;
+  align-items: center;
+  gap: inherit;
+}
+
+.headerNavListItem {
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: $transition-fast;
+
+  @include hover {
+    color: $color-primary-hover;
+  }
+}
