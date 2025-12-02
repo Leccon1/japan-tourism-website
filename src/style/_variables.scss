@@ -12,6 +12,10 @@ $color-primary-hover: rgba(
   $color: $color-primary,
   $alpha: 0.75,
 );
+$color-button-hover: rgba(
+  $color: $color-secondary,
+  $alpha: 0.65,
+);
 
 // Шрифты
 $font-family-base: 'Roboto', sans-serif;
@@ -40,6 +44,12 @@ $border-color: $color-white;
 $box-shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
 $box-shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
 $box-shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.2);
+
+$shadow-button: 0 0px 20px
+  rgba(
+    $color: $color-secondary,
+    $alpha: 0.65,
+  );
 
 // Переходы
 $transition-fast: 0.2s ease-in-out;
