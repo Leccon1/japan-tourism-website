@@ -2,22 +2,22 @@ const citiesData = [
   {
     city: 'Tokyo',
     description: 'Get intothe future in',
-    image: 'tokyo.svg',
+    image: new URL('@images/tokyo.svg', import.meta.url).href,
   },
   {
     city: 'Osaka',
     description: 'Turn back the time',
-    image: 'osaka.svg',
+    image: new URL('@images/osaka.svg', import.meta.url).href,
   },
   {
     city: 'Kyoto',
     description: 'Get impressed by',
-    image: 'kyoto.svg',
+    image: new URL('@images/kyoto.svg', import.meta.url).href,
   },
   {
     city: 'Nara',
     description: 'Get intothe future ',
-    image: 'nara.svg',
+    image: new URL('@images/nara.svg', import.meta.url).href,
   },
 ]
 
