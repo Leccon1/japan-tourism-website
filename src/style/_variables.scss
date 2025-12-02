@@ -17,8 +17,6 @@ $color-primary-hover: rgba(
 $font-family-base: 'Roboto', sans-serif;
 $font-family-secondary: 'Rokkitt', sans-serif;
 $font-size-base: rem(16);
-$font-size-sm: 0.875rem;
-$font-size-lg: 1.25rem;
 
 $font-weight-medium: 500;
 $font-weight-bold: 700;
@@ -33,6 +31,7 @@ $spacing-xl: rem(32);
 $border-radius-sm: rem(4);
 $border-radius-md: rem(8);
 $border-radius-lg: rem(16);
+$border-radius-xl: rem(32);
 
 $border-width: rem(2);
 $border-color: $color-white;
@@ -42,20 +41,9 @@ $box-shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
 $box-shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
 $box-shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.2);
 
-// Брейкпоинты
-$breakpoint-xs: 480px;
-$breakpoint-sm: 576px;
-$breakpoint-md: 768px;
-$breakpoint-lg: 992px;
-$breakpoint-xl: 1200px;
-$breakpoint-xxl: 1440px;
-
 // Переходы
 $transition-fast: 0.2s ease-in-out;
 $transition-normal: 0.3s ease-in-out;
-
-// Контейнер
-$container-max-width: rem(1200);
 
 // Z-индексы
 $z-index-header: 1000;
