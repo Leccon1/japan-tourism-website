@@ -1,0 +1,16 @@
+@use '@styles/variables' as *;
+@use '@styles/helpers' as *;
+
+.button {
+  padding: $spacing-md calc($spacing-xl + $spacing-sm);
+  border-radius: $border-radius-xl;
+  color: $color-white;
+  background-color: $color-secondary;
+  text-transform: uppercase;
+  box-shadow: $shadow-button;
+  transition: $transition-fast;
+
+  @include hover {
+    background-color: $color-button-hover;
+  }
+}
