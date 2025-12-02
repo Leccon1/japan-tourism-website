@@ -1,30 +1,25 @@
 @use './helpers/functions/' as *;
 
 // Цвета
-$color-blue: hsl(195, 88%, 59%);
-$color-grey: hsl(225, 22%, 45%);
-$color-success: hsl(140, 55%, 35%);
-$color-danger: hsl(0, 75%, 40%);
-$color-warning: hsl(45, 100%, 50%);
-$color-info: hsl(180, 75%, 40%);
-$color-light: hsl(0, 0%, 97%);
-$color-dark: hsl(0, 0%, 13%);
+$color-red: hsl(14, 100%, 50%);
 $color-white: hsl(0, 0%, 100%);
 $color-black: hsl(0, 0%, 0%);
 
-$color-background: $color-blue;
-$color-background-dark: $color-dark;
+$color-primary: $color-white;
+$color-secondary: $color-red;
 
-$color-text: $color-grey;
-$color-text-dark: $color-grey;
+$color-primary-hover: rgba(
+  $color: $color-primary,
+  $alpha: 0.75,
+);
 
 // Шрифты
-$font-family-base: 'Inter', sans-serif;
+$font-family-base: 'Roboto', sans-serif;
+$font-family-secondary: 'Rokkitt', sans-serif;
 $font-size-base: rem(16);
 $font-size-sm: 0.875rem;
 $font-size-lg: 1.25rem;
 
-$font-weight-normal: 400;
 $font-weight-medium: 500;
 $font-weight-bold: 700;
 
@@ -39,8 +34,8 @@ $border-radius-sm: rem(4);
 $border-radius-md: rem(8);
 $border-radius-lg: rem(16);
 
-$border-width: rem(1);
-$border-color: #dee2e6;
+$border-width: rem(2);
+$border-color: $color-white;
 
 // Тени
 $box-shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
