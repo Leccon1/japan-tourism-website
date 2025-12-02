@@ -20,10 +20,51 @@
 
 .headerNavListItem {
   text-transform: uppercase;
-  cursor: pointer;
   transition: $transition-fast;
 
   @include hover {
-    color: $color-primary-hover;
+    & .headerNavListLink {
+      color: $color-primary-hover;
+    }
   }
+}
+
+.headerNavListLink {
+  transition: color $transition-fast;
+}
+
+.headerSearchContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: $spacing-sm;
+}
+
+.searchLabel {
+  position: absolute;
+  left: $spacing-lg;
+  transition: all $transition-normal;
+  z-index: 0;
+}
+
+.searchInput {
+  background-color: transparent;
+  border-radius: $border-radius-xl;
+  border: $border-width solid $color-white;
+  color: $color-white;
+  padding: $spacing-sm $spacing-lg;
+  z-index: 10;
+  transition: transform $transition-normal;
+
+  &:focus {
+    & ~ .searchLabel {
+      font-size: rem(16);
+      transform: translateY(-$spacing-xl);
+    }
+  }
+}
+
+.seachIcon {
+  position: absolute;
+  right: $spacing-lg;
 }

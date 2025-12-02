@@ -9,14 +9,29 @@ const Header = () => {
     <header className={styles.header}>
       <nav className={styles.headerNav}>
         <ul className={styles.headerNavList}>
-          <li className={styles.headerNavListItem}>History of Japan</li>
-          <li className={styles.headerNavListItem}>Destinations</li>
-          <li className={styles.headerNavListItem}>Experiences</li>
+          <li className={styles.headerNavListItem}>
+            <a href="/" className={styles.headerNavListLink}>
+              History of Japan
+            </a>
+          </li>
+          <li className={styles.headerNavListItem}>
+            <a href="/" className={styles.headerNavListLink}>
+              History of Japan
+            </a>
+          </li>
+          <li className={styles.headerNavListItem}>
+            <a href="/" className={styles.headerNavListLink}>
+              Experiences
+            </a>
+          </li>
         </ul>
         <div className={styles.headerSearchContainer}>
           {' '}
-          <input type="text" placeholder="Search..." className={styles.searchInput} />
-          <img src={iconSearch} alt="Search" />
+          <input id="search" type="text" className={styles.searchInput} />
+          <label htmlFor="search" className={styles.searchLabel}>
+            Search
+          </label>
+          <img src={iconSearch} alt="Search" className={styles.seachIcon} />
         </div>
       </nav>
       <Button variant="primary">Explore</Button>
