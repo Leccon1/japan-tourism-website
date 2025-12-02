@@ -1,19 +1,24 @@
 const citiesData = [
-    {
-        id: 1,
-        city: 'Tokyo',
-        image: 'tokyo.jpg',
-    },
-    {
-        id: 2,
-        city: 'Osaka',
-        image: 'osaka.jpg',
-    },
-    {
-        id: 3,
-        city: 'Kyoto',
-        image: 'kyoto.jpg',
-    },
+  {
+    city: 'Tokyo',
+    description: 'Get intothe future in',
+    image: 'tokyo.svg',
+  },
+  {
+    city: 'Osaka',
+    description: 'Turn back the time',
+    image: 'osaka.svg',
+  },
+  {
+    city: 'Kyoto',
+    description: 'Get impressed by',
+    image: 'kyoto.svg',
+  },
+  {
+    city: 'Nara',
+    description: 'Get intothe future ',
+    image: 'nara.svg',
+  },
 ]
 
 export default citiesData
