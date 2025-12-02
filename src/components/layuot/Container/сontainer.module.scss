@@ -1,0 +1,22 @@
+@use '@styles/variables' as *;
+@use '@styles/helpers' as *;
+
+.container {
+  max-width: 1728px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 105px;
+
+  @include tablet {
+    padding: 0 $spacing-xl;
+  }
+
+  @include mobile {
+    padding: 0 $spacing-lg;
+  }
+
+  &--full {
+    min-width: 100%;
+    padding: 0;
+  }
+}
