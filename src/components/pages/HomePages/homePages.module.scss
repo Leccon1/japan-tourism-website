@@ -4,6 +4,10 @@
 .HomePages {
   width: 100%;
   min-height: 100vh;
+  background-image: url('@images/background-image.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
   display: flex;
   flex-direction: column;
 }
