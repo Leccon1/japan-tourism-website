@@ -47,6 +47,11 @@
   z-index: 0;
 }
 
+.seachIcon {
+  position: absolute;
+  right: $spacing-lg;
+}
+
 .searchInput {
   background-color: transparent;
   border-radius: $border-radius-xl;
@@ -54,17 +59,18 @@
   color: $color-white;
   padding: $spacing-sm $spacing-lg;
   z-index: 10;
-  transition: transform $transition-normal;
+  transition:
+    transform $transition-normal,
+    opacity $transition-fast;
 
   &:focus {
+    &,
+    & ~ .seachIcon {
+      opacity: 0.5;
+    }
     & ~ .searchLabel {
       font-size: rem(16);
       transform: translateY(-$spacing-xl);
     }
   }
-}
-
-.seachIcon {
-  position: absolute;
-  right: $spacing-lg;
 }
