@@ -1,8 +1,9 @@
+import HomePages from './components/pages/HomePages/HomePages'
+
 const App = () => {
   return (
     <div className="app">
-      <h1>Мое React приложение</h1>
-      {/* Сюда перенесете вашу существующую логику */}
+      <HomePages />
     </div>
   )
 }
