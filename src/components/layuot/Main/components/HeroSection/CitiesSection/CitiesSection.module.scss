@@ -2,9 +2,6 @@
 @use '@styles/helpers' as *;
 
 .citiesLine {
-  position: absolute;
-  bottom: 0;
-  place-self: center;
   display: flex;
   flex-direction: row;
   align-items: center;
