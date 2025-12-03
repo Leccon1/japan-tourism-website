@@ -1,13 +1,15 @@
 import Container from '../../layuot/Container/Container'
 import Header from '../../layuot/Header/Header'
 import Main from '../../layuot/Main/Main'
+
+import styles from './homePages.module.scss'
 const HomePages = () => {
   return (
-    <div>
-      <Container type={'full'}>
+    <div className={styles.HomePages}>
+      <Container>
         <Header />
-        <Main />
       </Container>
+      <Main />
     </div>
   )
 }
