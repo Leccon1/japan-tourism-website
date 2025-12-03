@@ -1,0 +1,31 @@
+@use '@styles/variables' as *;
+@use '@styles/helpers' as *;
+
+.citiesLine {
+  position: absolute;
+  bottom: 0;
+  place-self: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  gap: $spacing-xxl;
+}
+
+.citiesLineItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: $spacing-md;
+}
+
+.citiesLineItemContent {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-sm;
+}
+
+.citiesLineItemDescription {
+  font-weight: $font-weight-medium;
+  text-transform: uppercase;
+}
