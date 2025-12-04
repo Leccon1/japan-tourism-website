@@ -4,11 +4,22 @@
 .hero {
   position: relative;
   background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.7) 100%);
+
   flex: 1;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: space-evenly;
+
+  &::before {
+    content: '';
+    position: absolute;
+    background-image: url('@images/background-image.svg');
+    background-size: cover;
+    background-position: center;
+    inset: 0;
+    z-index: -1;
+  }
 }
 
 .pageTitle {
