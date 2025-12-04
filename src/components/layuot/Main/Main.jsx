@@ -3,6 +3,7 @@ import Container from '../Container/Container'
 
 import CitiesLine from './components/HeroSection/CitiesSection/CitiesSection'
 import HeroSection from './components/HeroSection/HeroSection'
+import JapaneseCities from './components/JapaneseCities/JapaneseCities'
 import styles from './main.module.scss'
 const Main = () => {
   return (
@@ -15,6 +16,7 @@ const Main = () => {
           </div>
         </Container>
       </HeroSection>
+      <JapaneseCities />
     </main>
   )
 }
