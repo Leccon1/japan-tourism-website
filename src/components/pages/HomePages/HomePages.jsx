@@ -6,9 +6,7 @@ import styles from './homePages.module.scss'
 const HomePages = () => {
   return (
     <div className={styles.HomePages}>
-      <Container>
-        <Header />
-      </Container>
+      <Header />
       <Main />
     </div>
   )
