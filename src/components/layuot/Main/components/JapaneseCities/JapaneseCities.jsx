@@ -16,7 +16,11 @@ const JapaneseCities = () => {
   return (
     <section className={styles.japaneseCities}>
       <div className={styles.japaneseCitiesItem}>
-        <img className={styles.japaneseCitiesItemImage} src={selectedCity.image} alt="" />
+        <img
+          className={styles.japaneseCitiesItemImage}
+          src={selectedCity.image}
+          alt={selectedCity.name}
+        />
         <div className={styles.japaneseCitiesItemInfo}>
           <h2 className={styles.japaneseCitiesItemTitle}>{selectedCity.name}</h2>
           <p className={styles.japaneseCitiesItemDescription}>{selectedCity.description}</p>
