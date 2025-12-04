@@ -1,3 +1,4 @@
+import Button from '@common/Button/Button'
 import { useState } from 'react'
 
 import citiesContentData from './data/citiesContent.data'
@@ -28,6 +29,7 @@ const JapaneseCities = () => {
               </li>
             ))}
           </ul>
+          <Button>About Us</Button>
         </div>
       </div>
     </section>
