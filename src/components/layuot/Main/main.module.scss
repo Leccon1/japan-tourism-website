@@ -3,9 +3,10 @@
 
 .main {
   flex: 1;
-
+  min-height: 100%;
   display: flex;
   flex-direction: column;
+  gap: $spacing-xl;
 }
 
 .heroContent {
