@@ -32,6 +32,7 @@ export default defineConfig({
       '@fonts': path.resolve(__dirname, './src/assets/fonts'),
       '@data': path.resolve(__dirname, './src/data'),
       '@components': path.resolve(__dirname, './src/components'),
+      '@common': path.resolve(__dirname, './src/components/common'),
     },
   },
 })
