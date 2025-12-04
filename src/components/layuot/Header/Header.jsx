@@ -34,7 +34,7 @@ const Header = () => {
           <img src={iconSearch} alt="Search" className={styles.seachIcon} />
         </div>
       </nav>
-      <Button variant="primary">Explore</Button>
+      <Button>Explore</Button>
     </header>
   )
 }
