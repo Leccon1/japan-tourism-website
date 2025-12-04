@@ -2,8 +2,9 @@
 @use '@styles/helpers' as *;
 
 .hero {
+  position: relative;
+  background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.7) 100%);
   flex: 1;
-
   display: flex;
   align-items: center;
   flex-direction: column;
