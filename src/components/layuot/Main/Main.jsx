@@ -16,7 +16,9 @@ const Main = () => {
           </div>
         </Container>
       </HeroSection>
-      <JapaneseCities />
+      <Container>
+        <JapaneseCities />
+      </Container>
     </main>
   )
 }
