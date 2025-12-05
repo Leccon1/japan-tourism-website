@@ -6,7 +6,7 @@ import styles from './japaneseCities.module.scss'
 const JapaneseCities = () => {
   const [selectedCity, setSelectedCity] = useState(citiesContentData[0])
   const [activeButton, setActiveButton] = useState(false)
-  const [progress, setProgress] = useState(0)
+  const [progress, setProgress] = useState(25)
 
   const part = 100 / citiesContentData.length
 
