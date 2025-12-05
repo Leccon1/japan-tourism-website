@@ -1,5 +1,5 @@
 import Button from '@common/Button/Button'
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 
 import citiesContentData from './data/citiesContent.data'
 import styles from './japaneseCities.module.scss'
@@ -9,11 +9,6 @@ const JapaneseCities = () => {
   const [progress, setProgress] = useState(0)
 
   const part = 100 / citiesContentData.length
-
-  ;(useEffect(() => {
-    console.log('Progress changed:', progress)
-  }),
-    [progress])
 
   return (
     <section className={styles.japaneseCities}>
